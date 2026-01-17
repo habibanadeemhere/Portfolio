@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Habiba Nadeem | Frontend Web Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<!-- Bootstrap -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- AOS Animation -->
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+<!-- sweet alert -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.min.css">
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- LOADER -->
+<div id="loader">
+  <div class="loader-text"><span>H</span><span>N</span></div>
+</div>
+
+<!-- DARK/LIGHT TOGGLE -->
+<div class="theme-toggle" id="themeToggle">
+  <i class="fa-solid fa-moon"></i>
+</div>
+
+<!-- NAVBAR -->
+<nav class="glass-nav">
+  <div class="logo">Habiba</div>
+  <ul>
+    <li><a href="#home">Home</a></li>
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#testimonials">Testimonials</a></li>
+    <li><a href="#contact" class="hire">Hire Me</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <img src="https://github.com/habibanadeemhere.png" alt="Habiba" class="hero-img">
+  <h1>Habiba Nadeem</h1>
+  <h2>I’m a <span id="typing"></span></h2>
+  <p>I build modern, animated, fully responsive web applications for remote teams worldwide.</p>
+  <div class="hero-btns">
+    <a href="#projects" class="btn-main">View Work</a>
+    <a href="#contact" class="btn-outline">Hire Me</a>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" data-aos="fade-up">
+  <h2 class="section-title">About Me</h2>
+  <p class="section-text">I am a passionate frontend web developer with experience in HTML, CSS, JS, Bootstrap, Supabase, and GitHub. I build professional websites that impress users & recruiters alike.</p>
+  <div class="about-grid">
+    <div><h3>Mission</h3><p>Deliver smooth, creative web experiences that leave a lasting impression.</p></div>
+    <div><h3>Passion</h3><p>Clean UI, subtle animations, GitHub projects, and solving real-world problems.</p></div>
+    <div><h3>Fun Fact</h3><p>Love infinitive loops to run</p></div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" data-aos="fade-up">
+  <h2 class="section-title">Skills & Tools</h2>
+  <div class="skill"><span>HTML5</span><div class="bar"><div style="width:0%"></div></div></div>
+  <div class="skill"><span>CSS3 & Animations</span><div class="bar"><div style="width:0%"></div></div></div>
+  <div class="skill"><span>JavaScript (ES6+)</span><div class="bar"><div style="width:0%"></div></div></div>
+  <div class="skill"><span>Bootstrap</span><div class="bar"><div style="width:0%"></div></div></div>
+  <div class="skill"><span>Supabase</span><div class="bar"><div style="width:0%"></div></div></div>
+</section>
+
+
+
+
+
+
+
+<!-- PROJECTS -->
+<section class="projects-section" id="projects">
+
+  <div class="section-header">
+    <h2>My Projects</h2>
+    <p>Some of the best work I’ve built with passion & precision</p>
+  </div>
+
+  <div class="projects-grid">
+
+    <!-- CARD 1 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+
+        <div class="flip-card-front">
+          <img src="images/img1.png" alt="Project Image">
+        </div>
+
+        <div class="flip-card-back">
+          <h3>Modern Blog Application</h3>
+          <p>Built using HTML, CSS, JavaScript, API integration, and Supabase. <br>
+            A full-featured blog application with authentication, category management, and CRUD functionality. Users can create, edit, and delete posts with images, while admins manage content efficiently. Built with a clean UI and responsive layout for all devices.</p>
+          <a href="https://astonishing-smakager-b5b98c.netlify.app/" target="_blank">
+            View Project
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- CARD 2 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/img2.png">
+        </div>
+        <div class="flip-card-back">
+          <h3>Mini Instagram Clone</h3>
+          <p>Built using HTML, CSS, JavaScript, API integration, and Supabase. <br>A social media web app inspired by Instagram where users can upload images, like posts, and view feeds in real time. Designed with a modern interface and smooth interactions, focusing on core social features and responsive user experience.</p>
+          <a href="https://jovial-nougat-e8793b.netlify.app/">View Project</a>
+        </div>
+      </div>
+    </div>
+
+    <!-- CARD 3 -->
+    <div class="flip-card">
+      <div class="flip-card-inner">
+        <div class="flip-card-front">
+          <img src="images/img3.png">
+        </div>
+        <div class="flip-card-back">
+          <h3>Weather Forecast Application</h3>
+          <p>Built using HTML, CSS, JavaScript, API integration, and Supabase. <br>
+            A weather application that provides real-time weather updates, temperature, and conditions based on user location or searched cities. Features a clean UI, fast API integration, and responsive design for seamless usage across devices.
+          </p>
+          <a href="https://habibanadeemhere.github.io/Weather-Application/">View Project</a>
+        </div>
+      </div>
+    </div>
+
+
+
+<div class="projects-btn-wrapper">
+  <a href="projects.html" class="projects-btn">
+    View more projects
+    <i class="fa-solid fa-arrow-right"></i>
+  </a>
+</div>
+
+
+
+
+
+  </div>
+</section>
+
+
+
+
+<!-- TESTIMONIALS -->
+<section id="testimonials" data-aos="fade-up">
+  <h2 class="section-title">Testimonials</h2>
+  <div class="testimonial-slider" id="testimonialSlider">
+    <div class="testimonial"><p>"Habiba delivers clean & professional work."</p><h5>- John Doe</h5></div>
+    <div class="testimonial"><p>"Amazing frontend skills & fast learner!"</p><h5>- Jane Smith</h5></div>
+    <div class="testimonial"><p>"Perfect communication & design sense."</p><h5>- Client XYZ</h5></div>
+  </div>
+</section>
+
+<!-- STATS -->
+<section id="stats" data-aos="fade-up">
+  <div class="stats-grid">
+    <div class="stat-box"><h3 class="count" data-target="39">0</h3><p>Projects Completed</p></div>
+    <div class="stat-box"><h3 class="count" data-target="100">0%</h3><p>Passion & Dedication</p></div>
+    <div class="stat-box"><h3 class="count" data-target="10">0</h3><p>Technologies Mastered</p></div>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" data-aos="fade-up">
+  <h2 class="section-title">Let's Work Together</h2>
+  <form id="contactForm">
+    <input type="text" id="name" placeholder="Your Name" required>
+    <input type="email" id="email" placeholder="Your Email" required>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    <button type="submit">Send Message</button>
+  </form>
+</section>
+
+<!-- FOOTER -->
+<footer>© 2026 Habiba Nadeem — Frontend Web Developer</footer>
+
+<!-- SCRIPTS -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>AOS.init({duration:1200, once:true});</script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+<script src="main.js"></script>
+<script src="projects.js"></script>
+<script src="contact.js"></script>
+</body>
+</html>
